@@ -182,8 +182,30 @@ S = R
 #------------------------------------------------------------------------------------
 
 S = R[:]
-print(S)
+#print(S)
 
-print('S[0]:', S[0])
+#print('S[0]:', S[0])
 R[0] = "hard rock"
-print('S[0]:', S[0])
+#print('S[0]:', S[0])
+
+
+
+
+
+
+
+
+
+
+#------------------------------------------------------------------------------------
+# Sets:
+#------------------------------------------------------------------------------------
+
+album_list = [ "The Bodyguard", "Thriller", 1982, "00:42:19", \
+              "Pop, Rock, R&B", 46.0, 65, "30-Nov-82", None, 10.0]
+album_set = set(album_list)             
+#print(album_set)
+
+music_genres = set(["pop", "pop", "rock", "folk rock", "hard rock", "soul", \
+                    "progressive rock", "soft rock", "R&B", "disco"])
+print(music_genres)
